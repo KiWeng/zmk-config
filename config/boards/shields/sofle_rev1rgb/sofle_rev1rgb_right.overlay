@@ -1,4 +1,4 @@
-#include "sofle.dtsi"
+#include "sofle_rev1rgb.dtsi"
 
 &default_transform {
 	col-offset = <6>;
