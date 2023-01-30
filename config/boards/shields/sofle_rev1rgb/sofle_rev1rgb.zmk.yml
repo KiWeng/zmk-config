@@ -1,0 +1,14 @@
+file_format: "1"
+id: sofle_rev1rgb
+name: Sofle
+type: shield
+url: https://github.com/josefadamcik/SofleKeyboard # TODO
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - encoder # TODO: add rgb
+siblings:
+  - sofle_left
+  - sofle_right
