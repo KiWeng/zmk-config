@@ -10,5 +10,5 @@ features:
   - display
   - encoder # TODO: add rgb
 siblings:
-  - sofle_left
-  - sofle_right
+  - sofle_rev1rgb_left
+  - sofle_rev1rgb_right
