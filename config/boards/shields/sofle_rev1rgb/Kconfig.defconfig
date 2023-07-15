@@ -8,7 +8,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 	
 endif
 
-if  SHIELD_SOFLE_REV1RGB_LEFT|| SHIELD_SOFLE_REV1RGB_RIGHT
+if  SHIELD_SOFLE_REV1RGB_LEFT || SHIELD_SOFLE_REV1RGB_RIGHT || SHIELD_SOFLE_REV1RGB
 
 config ZMK_SPLIT
 	default y
@@ -20,13 +20,13 @@ config ZMK_RGB_UNDERGLOW
 if ZMK_DISPLAY
 
 config I2C
-	default y
+    default y
 
 config SSD1306
-	default y
+    default y
 
 config SSD1306_REVERSE_MODE
-	default y
+    default y
 
 endif # ZMK_DISPLAY
 
